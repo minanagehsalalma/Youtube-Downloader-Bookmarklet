@@ -20,3 +20,6 @@ itag parameter with value "22" stands for 720 mp4 ...etc [the full list](https:/
 5. The bookmarklet **Prompt Version** should show a prompt that allows the user to select from the available formats while the **WithMenu** injects a menu into the current video code
 
 Side Note : to make the downloaded files have the vid name we added a [title parameter](https://github.com/ytdl-org/youtube-dl/issues/13325#issuecomment-308330358) to the url with the vid name extracted using the tab title
+
+# The Site to convert JS code to Bookmarklet
+[chriszarate.github.io/bookmarkleter](https://chriszarate.github.io/bookmarkleter/)

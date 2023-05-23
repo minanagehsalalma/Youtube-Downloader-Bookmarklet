@@ -19,6 +19,22 @@ itag parameter with value "22" stands for 720 mp4 ...etc [the full list](https:/
 
 5. The bookmarklet **Prompt Version** should show a prompt that allows the user to select from the available formats while the **WithMenu** injects a menu into the current video code
 
+# Usage :
+- Copy the code from [WithMenuMimfiyed.js](https://github.com/minanagehsalalma/Youtube-Downloader-Bookmarklet/blob/main/WithMenuMimfiyed.js) or [PromptMimfiyed.js](https://github.com/minanagehsalalma/Youtube-Downloader-Bookmarklet/blob/main/PromptMimfiyed.js) whatever you prefer from the two , then add a new page to the bookmark bar , and paste the code into the url of the bookmark , and input any name.
+
+- now you go to whatever YT vid page you want to download and click on the newly created bookmark page. then the download menu will pop up. note that you need to refersh the page each time you use it.
+
+# A Demo :
+
+
+https://github.com/minanagehsalalma/Youtube-Downloader-Bookmarklet/assets/20546638/c7ba9309-8c36-4d90-b762-f8f453809832
+
+
+https://github.com/minanagehsalalma/Youtube-Downloader-Bookmarklet/assets/20546638/2918709d-4aa8-43af-9879-5584f09fa707
+
+
+
+
 Side Note : to make the downloaded files have the vid name we added a [title parameter](https://github.com/ytdl-org/youtube-dl/issues/13325#issuecomment-308330358) to the url with the vid name extracted using the tab title
 
 # The Site to convert JS code to Bookmarklet

@@ -53,7 +53,7 @@ if (matches) {
         button.style.fontWeight = 'bold'; // Make button text bold
         button.addEventListener('click', openSelectedFormat);
 
-        var segmentedLikeButton = document.getElementById('segmented-like-button');
+        var segmentedLikeButton = document.querySelector('.YtSegmentedLikeDislikeButtonViewModelHost');
         var parentElement = segmentedLikeButton.parentNode;
         parentElement.insertBefore(selectMenu, segmentedLikeButton);
         parentElement.insertBefore(button, segmentedLikeButton);

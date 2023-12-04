@@ -175,8 +175,44 @@ function getQualityFromItag(itag) {
             return 'WebM 1440p Video Only';         
         case '278':
             return 'WebM 144p Video Only'; 
+        case '298':
+            return 'MP4 720p60 Video Only'; 
+        case '299':
+            return 'MP4 1080p60 Video Only'; 
+        case '302':
+            return 'WebM 720p60 Video Only';
+        case '303':
+            return 'WebM 1080p60 Video Only';
+        case '308':
+            return 'WebM 1440p60 Video Only';
         case '313':
-            return 'WebM 2160p Video Only';             
+            return 'WebM 2160p Video Only';      
+        case '315':
+            return 'WebM 2160p60 Video Only';
+        case '398':
+            return 'MP4AV1 720p60 Video Only';
+        case '399':
+            return 'MP4AV1 1080p60 Video Only';
+        case '400':
+            return 'MP4AV1 1440p60 Video Only';
+        case '401':
+            return 'MP4AV1 2160p60 Video Only';
+        case '694':
+            return 'MP4AV1 144p120+ Video Only';
+        case '695':
+            return 'MP4AV1 240p120+ Video Only';
+        case '696':
+            return 'MP4AV1 360p120+ Video Only';
+        case '697':
+            return 'MP4AV1 480p120+ Video Only';
+        case '698':
+            return 'MP4AV1 720p120+ Video Only';
+        case '699':
+            return 'MP4AV1 1080p120+ Video Only';
+        case '700':
+            return 'MP4AV1 1440p120+ Video Only';
+        case '701':
+            return 'MP4AV1 2160p120+ Video Only';
         default:
             return 'Unknown';
     }

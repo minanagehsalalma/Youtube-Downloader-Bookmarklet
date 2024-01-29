@@ -17,6 +17,7 @@ if (matches) {
         });
 
         var selectMenu = document.createElement('select');
+        selectMenu.style.width = '200px';
         selectMenu.id = 'videoFormatSelect';
 
         // Sort "Video Only" formats to the bottom
